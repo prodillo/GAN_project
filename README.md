@@ -1,4 +1,4 @@
-# GANS
+# Handbag GAN
 
 In this project is will implement a DCGAN to see if I can generate handbag designs. 
 
