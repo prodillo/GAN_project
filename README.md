@@ -18,7 +18,7 @@ In the paper, the role of the Generator is explained as follows: "A 100 dimensio
 
 # Some results
 
-After 400 epochs of training, here we can see some handbags created by our DCGAN:
+After 450 epochs of training, here we can see some handbags created by our DCGAN:
 
 <p float="left">
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image1.png" width="100" />
