@@ -93,7 +93,7 @@ In my case, it took almost 24 hours to get my quota increased. After that, you w
  
 and make sure to run the following command for the first time setup:
  
-$ /home/shared/setup.sh && source ~/.bashrc
+    $ /home/shared/setup.sh && source ~/.bashrc
 
 3. Install PuTTY to generate a private key: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
@@ -128,9 +128,10 @@ To connect, use the external IP of the instance, the user name (prodillo) and in
  
 7. Finally, if you need to install python libraries, open  a SSH terminal as shown in step 2 and type:
 
-$ sudo su root
-$conda install [package name]
+    $ sudo su root
+    
+    $conda install [package name]
 
 For example, I installed the tqdm package typing:
 
-$conda install tqdm
+    $conda install tqdm
