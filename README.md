@@ -34,6 +34,12 @@ After 400 epochs of training, here we can see some designs created by our DCGAN:
   <div class="column">
     <img src="https://github.com/prodillo/GAN_project/blob/master/images/image5.png" width="100" style="width:100%">
   </div>
+  <div class="column">
+    <img src="https://github.com/prodillo/GAN_project/blob/master/images/image6.png" width="100" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://github.com/prodillo/GAN_project/blob/master/images/image7.png" width="100" style="width:100%">
+  </div>
 </div>
 
  <p></p>
