@@ -130,8 +130,8 @@ To connect, use the external IP of the instance, the user name (prodillo) and in
 
     $ sudo su root
     
-    $conda install [package name]
+    $ conda install [package name]
 
 For example, I installed the tqdm package typing:
 
-    $conda install tqdm
+    $ conda install tqdm
