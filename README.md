@@ -3,6 +3,8 @@
 In this project is will implement a DCGAN to see if I can generate handbag designs. 
 
 To accomplish this I'm using 3,000 handbag images from Imagenet. These are sample images:
+
+<p></p>
  
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/sample%20image.PNG" width="400"></p>
 
