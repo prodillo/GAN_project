@@ -87,7 +87,7 @@ To solve this, you have to go IAM & admin->Quotas in the Google Cloud console, f
  
 In my case, it took almost 24 hours to get my quota increased. After that, you are ready to go with your virtual machine!
  
-2. Open the terminal:
+2\. Open the terminal:
 
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image2-1.png"</p>
  
@@ -95,15 +95,15 @@ and make sure to run the following command for the first time setup:
  
     $ /home/shared/setup.sh && source ~/.bashrc
 
-3. Install PuTTY to generate a private key: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+3\. Install PuTTY to generate a private key: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
-4. Open PuTTY key generator and create a private key: 
+4\. Open PuTTY key generator and create a private key: 
 
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image4-1.png"</p>
  
 Make sure to put the google cloud username in “Key comment”. After this, save the private key (I saved the key in a file named gcloud_instance_2.ppk)
 
-5. Go to the virtual machine in the google cloud console, make sure it is stopped and click it:
+5\. Go to the virtual machine in the google cloud console, make sure it is stopped and click it:
 
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image5-1.png"</p>
  
@@ -119,14 +119,14 @@ Finally, save changes:
 
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image5-4.png"</p>
  
-6. Download WinSCP: https://winscp.net/eng/download.php to transfer files between local and virtual machine.
+6\. Download WinSCP: https://winscp.net/eng/download.php to transfer files between local and virtual machine.
 
 To connect, use the external IP of the instance, the user name (prodillo) and in Advanced Settings->SSH-> Authenticate, select the private key file created in the previous step.
 
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image6-1.png"</p>
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image6-2.png"</p>
  
-7. Finally, if you need to install python libraries, open  a SSH terminal as shown in step 2 and type:
+7\. Finally, if you need to install python libraries, open  a SSH terminal as shown in step 2 and type:
 
     $ sudo su root
     
