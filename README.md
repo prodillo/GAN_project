@@ -74,14 +74,14 @@ After 450 epochs of training, here we can see some handbags created by our DCGAN
 
 Certainly, GPU saves a lot of time training neural networks, so I had to spend some time to setup a virtual machine in Google Cloud to have access to GPU computing. Given that I didn't find a compehensive tutorial for windows users, I will share what worked for me.
 
-1. To setup my virtual machine in google cloud I borrowed a virtual machine image from Stanford’s Convolutional Neural Networks course that installs Anaconda, Pytorch and other useful libraries (thanks guys!). I followed this tutorial: http://cs231n.github.io/gce-tutorial/ . <p></p>
+1\. To setup my virtual machine in google cloud I borrowed a virtual machine image from Stanford’s Convolutional Neural Networks course that installs Anaconda, Pytorch and other useful libraries (thanks guys!). I followed this tutorial: http://cs231n.github.io/gce-tutorial/ . <p></p>
 Be careful to select the number of GPUs that you need in order to have access to GPU computing. In my case I selected 1 NVIDIA Tesla K80 GPU.
 
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image1-1.png"</p>
  
-⋅⋅⋅After finishing the setup of your virtual machine you will get an error message because you don’t have a GPU quota assigned to your virtual machine. 
+After finishing the setup of your virtual machine you will get an error message because you don’t have a GPU quota assigned to your virtual machine. 
 
-To solve this, you have to go IAM & admin->Quotas in the google cloud console, find and select the NVIDIA K80 GPU of your corresponding zone, click “EDIT QUOTAS” and then request access to the number of GPUs that you selected previously (1 in my case).
+To solve this, you have to go IAM & admin->Quotas in the Google Cloud console, find and select the NVIDIA K80 GPU of your corresponding zone, click “EDIT QUOTAS” and then request access to the number of GPUs that you selected previously (1 in my case).
 
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image1-2.png"</p>
  
