@@ -79,13 +79,13 @@ Be careful to select the number of GPUs that you need in order to have access to
 
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image1-1.png"</p>
  
-After finishing the setup of your virtual machine you will get an error message because you don’t have a GPU quota assigned to your  
-virtual machine. To solve this, you have to go IAM & admin->Quotas in the google cloud console, find and select the NVIDIA K80 GPU of  
-your corresponding zone, click “EDIT QUOTAS” and then request access to the number of GPUs that you selected previously (1 in my case).
+⋅⋅⋅After finishing the setup of your virtual machine you will get an error message because you don’t have a GPU quota assigned to your virtual machine. 
+
+To solve this, you have to go IAM & admin->Quotas in the google cloud console, find and select the NVIDIA K80 GPU of your corresponding zone, click “EDIT QUOTAS” and then request access to the number of GPUs that you selected previously (1 in my case).
 
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image1-2.png"</p>
  
-In my case, it took almost 24 hours to get my quota increased. After that, you will be able to tun your virtual machine!
+In my case, it took almost 24 hours to get my quota increased. After that, you are ready to go with your virtual machine!
  
 2. Open the terminal:
 
