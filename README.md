@@ -72,7 +72,7 @@ After 450 epochs of training, here we can see some handbags created by our DCGAN
 
 # Bonus: Google Cloud Setup
 
-Certainly, GPU saves a lot of time training neural networks, so I had to spend some time to setup a virtual machine in Google Cloud to have access to GPU computing. Given that I didn't find a compehensive tutorial for windows users, I will share what worked for me.
+Certainly, GPU saves a lot of time training neural networks, so I had to spend some time to setup a virtual machine in Google Cloud to have access to GPU computing. Given that I didn't find a compehensive tutorial for Windows users, I will share what worked for me.
 
 1\. To setup my virtual machine in google cloud I borrowed a virtual machine image from Stanford’s Convolutional Neural Networks course that installs Anaconda, Pytorch and other useful libraries (thanks guys!). I followed this tutorial: http://cs231n.github.io/gce-tutorial/ . <p></p>
 Be careful to select the number of GPUs that you need in order to have access to GPU computing. In my case I selected 1 NVIDIA Tesla K80 GPU.
