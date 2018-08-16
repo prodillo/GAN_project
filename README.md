@@ -101,9 +101,9 @@ and make sure to run the following command for the first time setup:
 
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image4-1.png"</p>
  
-Make sure to put the google cloud username in “Key comment”. After this, save the private key (I saved the key in a file named gcloud_instance_2.ppk)
+Make sure to put your Google Cloud username in “Key comment”. After this, save the private key (I saved the key in a file named gcloud_instance_2.ppk)
 
-5\. Go to the virtual machine in the google cloud console, make sure it is stopped and click it:
+5\. Go to the virtual machine in the Google Cloud console, make sure it is stopped, and click it:
 
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image5-1.png"</p>
  
