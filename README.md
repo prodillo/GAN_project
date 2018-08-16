@@ -14,7 +14,7 @@ DCGANs were introduced by Alec Radford, Luke Metz and Soumith Chintala in 2016 (
 
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/images/dcgan%20diagram.png" width="800"></p>
 
-The role of the Generator is explained as follows in the paper: "A 100 dimensional uniform distribution Z is projected to a small spatial extent convolutional representation with many feature maps. A series of four fractionally-strided convolutions then convert this high level representation into a 64 × 64 pixel image."
+In the paper, the role of the Generator is explained as follows: "A 100 dimensional uniform distribution Z is projected to a small spatial extent convolutional representation with many feature maps. A series of four fractionally-strided convolutions then convert this high level representation into a 64 × 64 pixel image."
 
 # Some results
 
