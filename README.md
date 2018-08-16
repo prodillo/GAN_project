@@ -69,3 +69,68 @@ After 450 epochs of training, here we can see some handbags created by our DCGAN
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image34.png" width="100" />
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image35.png" width="100" />
 </p>
+
+# Bonus: Google Cloud Setup
+
+Certainly, GPU saves a lot of time training neural networks, so I had to spend some time to setup a virtual machine in Google Cloud to have access to GPU computing. Given that I didn't find a compehensive tutorial for windows users, I will share what worked for me.
+
+1. To setup my virtual machine in google cloud I borrowed a virtual machine image from Stanford’s Convolutional Neural Networks course that installs Anaconda, Pytorch and other useful libraries (thanks guys!). I followed this tutorial: http://cs231n.github.io/gce-tutorial/ . <p></p>
+Be careful to select the number of GPUs that you need in order to have access to GPU computing. In my case I selected 1 NVIDIA Tesla K80 GPU.
+
+<p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image1-1.png"</p>
+ 
+After finishing the setup of your virtual machine you will get an error message because you don’t have a GPU quota assigned to your  
+virtual machine. To solve this, you have to go IAM & admin->Quotas in the google cloud console, find and select the NVIDIA K80 GPU of  
+your corresponding zone, click “EDIT QUOTAS” and then request access to the number of GPUs that you selected previously (1 in my case).
+
+<p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image1-2.png"</p>
+ 
+In my case, it took almost 24 hours to get my quota increased. After that, you will be able to tun your virtual machine!
+ 
+2. Open the terminal:
+
+<p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image2-1.png"</p>
+ 
+and make sure to run the following command for the first time setup:
+ 
+$ /home/shared/setup.sh && source ~/.bashrc
+
+3. Install PuTTY to generate a private key: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+4. Open PuTTY key generator and create a private key: 
+
+<p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image4-1.png"</p>
+ 
+Make sure to put the google cloud username in “Key comment”. After this, save the private key (I saved the key in a file named gcloud_instance_2.ppk)
+
+5. Go to the virtual machine in the google cloud console, make sure it is stopped and click it:
+
+<p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image5-1.png"</p>
+ 
+Then click “EDIT”:
+
+<p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image5-2.png"</p>
+ 
+And go to SSH Keys and click “Add item” then copy and paste the key generated in the previous step: 
+
+<p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image5-3.png"</p>
+ 
+Finally, save changes:
+
+<p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image5-4.png"</p>
+ 
+6. Download WinSCP: https://winscp.net/eng/download.php to transfer files between local and virtual machine.
+
+To connect, use the external IP of the instance, the user name (prodillo) and in Advanced Settings->SSH-> Authenticate, select the private key file created in the previous step.
+
+<p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image6-1.png"</p>
+<p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image6-2.png"</p>
+ 
+7. Finally, if you need to install python libraries, open  a SSH terminal as shown in step 2 and type:
+
+$ sudo su root
+$conda install [package name]
+
+For example, I installed the tqdm package typing:
+
+$conda install tqdm
