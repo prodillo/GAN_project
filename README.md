@@ -87,7 +87,7 @@ To solve this, you have to go IAM & admin->Quotas in the Google Cloud console, f
  
 In my case, it took almost 24 hours to get my quota increased. After that, you are ready to go with your virtual machine!
  
-2\. Open the terminal:
+2\. Following the previous tutorial, it is important that you open the terminal:
 
 <p align="center"><img src="https://github.com/prodillo/GAN_project/blob/master/gcloud_tutorial/image2-1.png"</p>
  
