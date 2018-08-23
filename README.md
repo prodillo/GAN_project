@@ -34,7 +34,7 @@ After 450 epochs of training, here we can see some handbags created by our DCGAN
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image8.png" width="100" />
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image9.png" width="100" /> 
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image10.png" width="100" />
-  <img src="https://github.com/prodillo/GAN_project/blob/master/images/image11.png" width="100" />
+  <img src="https://github.com/prodillo/GAN_project/blob/master/images/image46.png" width="100" />
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image12.png" width="100" />
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image13.png" width="100" />
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image14.png" width="100" />
@@ -54,16 +54,16 @@ After 450 epochs of training, here we can see some handbags created by our DCGAN
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image22.png" width="100" />
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image23.png" width="100" /> 
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image24.png" width="100" />
-  <img src="https://github.com/prodillo/GAN_project/blob/master/images/image25.png" width="100" />
+  <img src="https://github.com/prodillo/GAN_project/blob/master/images/image62.png" width="100" />
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image26.png" width="100" />
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image27.png" width="100" />
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image28.png" width="100" />
 </p>
 
 <p float="left">
-  <img src="https://github.com/prodillo/GAN_project/blob/master/images/image29.png" width="100" />
+  <img src="https://github.com/prodillo/GAN_project/blob/master/images/image59.png" width="100" />
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image30.png" width="100" /> 
-  <img src="https://github.com/prodillo/GAN_project/blob/master/images/image31.png" width="100" />
+  <img src="https://github.com/prodillo/GAN_project/blob/master/images/image60.png" width="100" />
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image32.png" width="100" />
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image33.png" width="100" />
   <img src="https://github.com/prodillo/GAN_project/blob/master/images/image34.png" width="100" />
