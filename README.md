@@ -1,6 +1,6 @@
 # Handbag GAN
 
-In this project is will implement a DCGAN to see if I can generate handbag designs. 
+In this project I will implement a DCGAN to see if I can generate handbag designs. 
 
 To accomplish this I'm using 3,000 handbag images from Imagenet. These are sample images:
 
